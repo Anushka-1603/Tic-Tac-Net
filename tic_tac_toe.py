@@ -66,8 +66,8 @@ def reset_board():
     return [["" for _ in range(BOARD_SIZE)] for _ in range(BOARD_SIZE)]
 
 # Load images
-x_image = pg.image.load("x.png")
-o_image = pg.image.load("o.png")
+x_image = pg.image.load("assets/x.png")
+o_image = pg.image.load("assets/o.png")
 
 # Resize images
 x_image = pg.transform.scale(x_image, (CELL_SIZE - 20, CELL_SIZE - 20))
@@ -77,7 +77,7 @@ o_image = pg.transform.scale(o_image, (CELL_SIZE - 20, CELL_SIZE - 20))
 WINDOW = pg.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pg.display.set_caption("Tic Tac Toe")
 
-cover_image = pg.image.load("cover.png")
+cover_image = pg.image.load("assets/cover.png")
 cover_image = pg.transform.scale(cover_image, (WINDOW_WIDTH, WINDOW_HEIGHT))
 
 # Set up the game variables
