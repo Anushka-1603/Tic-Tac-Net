@@ -8,6 +8,14 @@ Principles of Computer Systems-2 (PCS-2) covers the following concepts:
        - Computer Networking
        - Virtualization
 
+## Table of Contents
+- [Description](#Description)
+- [File Structure](#File-Structure)
+- [Pre-requisites](#Pre-requisites)
+- [Running Instructions](#Running-Instructions)
+- [Demo](#Demo)
+- [Contributors](#Contributors)
+
 ## Description
 This project combines the classic **Tic-Tac-Toe** game with **Socket Programming**. It allows two players to play against each other over a network, with one player acting as the server and the other as the client. The game runs on a **virtual machine** set up using Virtual Box. The main game logic is implemented using **pygame**. 
 
@@ -77,6 +85,6 @@ This project combines the classic **Tic-Tac-Toe** game with **Socket Programming
 ## Demo
 Click [here](https://drive.google.com/file/d/1jDkTQQH6JErs4v7CZwq__kgG7WSc_Fgv/view) to watch the demo.
 
-## Contributers
+## Contributors
 - Anushka Singh(B22AI008) : [Anushka-1603](https://github.com/Anushka-1603)
 - Hari Shubha(B22AI021) : [harishubha](https://github.com/harishubha)
